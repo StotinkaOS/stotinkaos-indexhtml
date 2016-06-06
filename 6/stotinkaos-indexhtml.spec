@@ -1,7 +1,7 @@
 Summary: Browser default start page for StotinkaOS
 Name: stotinkaos-indexhtml
 Version: 6
-Release: 6%{?dist}
+Release: 8%{?dist}
 Source: %{name}-%{version}.tar.gz
 License: Distributable
 Group: Documentation
@@ -32,6 +32,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_defaultdocdir}/HTML/*
 
 %changelog
+* Fri Jun 03 2016 StotinkaOS Team <stotinkaos.bg@gmail.com> - 6-8.el6.sos
+- Update to 6.8
+
 * Sat Jan 31 2015 Ivaylo Kuzev <ivkuzev@gmail.com> - 6-6.el6.sos
 - Initial build for StotinkaOS
 
