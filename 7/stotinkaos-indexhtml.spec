@@ -1,7 +1,7 @@
 Summary: Browser default start page for StotinkaOS
 Name: stotinkaos-indexhtml
 Version: 7
-Release: 9%{?dist}.sos
+Release: 11%{?dist}
 Source: %{name}-%{version}.tar.gz
 License: Distributable
 Group: Documentation
@@ -38,6 +38,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_defaultdocdir}/HTML/*
 
 %changelog
+* Sun Dec 04 2016 StotinkaOS Team <stotinkaos.bg@gmail.com> - 7-11.el7.sos
+- Update to 7.3
+
+* Sun Feb 14 2016 StotinkaOS Team <stotinkaos.bg@gmail.com> - 7-10.el7.sos
+- Fix webside url
+
 * Sun Jan 31 2016 StotinkaOS Team <stotinkaos.bg@gmail.com> - 7-9.el7.sos
 - Initial build for StotinkaOS 7
 
